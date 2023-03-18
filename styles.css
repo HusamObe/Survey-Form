@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 1rem;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-image: url("https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200");
+}
+
+form {
+    opacity: 90%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #01daff;
+    text-shadow: -4px 5px #3a3939;
+}
+
+#description {
+    font-size: 20px;
+    margin: 1em auto;
+    text-align: center;
+    color: #01daff;
+    text-shadow: -4px 5px #3a3939;
+}
+
+body p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 33%;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 2px solid #777;
+}
+
+fieldset p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type="number"] {
+    width: 50%;
+}
+
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+option[disabled]:first-child {
+    display: none;
+}
+
+.clue {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #777;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+#submit {
+    display: block;
+    margin: 1em auto;
+    background-color: #929292;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #888888;
+
+}
